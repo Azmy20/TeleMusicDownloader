@@ -7,11 +7,14 @@ from GeezMusic import Geez as app
 from GeezMusic import LOGGER
 
 pm_start_text = """
-Heya [{}](tg://user?id={}), Saya Bot Pengunduh Lagu 🎵
+Hey👋 [{}](tg://user?id={}), Saya Bot Pengunduh Lagu Yang Telah Di Rancang 
+Khusus Oleh Seseorang Dengan Segabut Mungkin😂, Saya Bisa Mengunduhkan Sebuah
+Lagu Yang Anda Minta Dengan Cara:
 
-Ketik/Telan /help untuk mengetahui perintah saya
 
-By @Vckyouuu
+Ketik /help untuk mengetahui perintah saya
+
+Di kelola Oleh {OWNER}
 """
 
 help_text = """
@@ -33,10 +36,10 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Group Support", url="https://t.me/GrupMusik"
+                        text="Di Dukung Oleh ❤️", url="https://t.me/SujandraAsissten"
                     ),
                     InlineKeyboardButton(
-                        text="Owner", url="https://t.me/VckyouuBitch"
+                        text="Owner☕", url="https://t.me/LordGanss10"
                     )
                 ]
             ]
